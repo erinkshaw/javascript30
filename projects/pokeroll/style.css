@@ -1,0 +1,49 @@
+:root {
+
+}
+
+img {
+  height: 100px;
+}
+
+.circle {
+  display: block;
+  position: relative;
+  width: 90vh; /*35em;*/
+  height: 90vh;
+  border: dashed 1px;
+  border-radius: 50%;
+  left: 20%
+}
+
+.circle img {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    /* width: 4em; height: 4em; */
+    margin: -3em;
+}
+
+#one { transform: rotate(0deg) translate(45vh) rotate(0deg)}
+#two { transform: rotate(18.25deg) translate(45vh) rotate(-18.25deg); }
+#three { transform: rotate(36.5deg) translate(45vh) rotate(-36.5deg); }
+#four { transform: rotate(54.75deg) translate(45vh) rotate(-54.75deg); }
+#five { transform: rotate(73deg) translate(45vh) rotate(-73deg); }
+#six { transform: rotate(91.25deg) translate(45vh) rotate(-91.25deg); }
+#seven { transform: rotate(109.5deg) translate(45vh) rotate(-109.5deg); }
+#eight { transform: rotate(127.75deg) translate(45vh) rotate(-127.75deg); }
+#nine { transform: rotate(146deg) translate(45vh) rotate(-146deg); }
+#ten { transform: rotate(164.25deg) translate(45vh) rotate(-164.25deg); }
+#eleven { transform: rotate(182.5deg) translate(45vh) rotate(-182.5deg); }
+#twelve { transform: rotate(200.75deg) translate(45vh) rotate(-200.75deg); }
+#thirteen { transform: rotate(219deg) translate(45vh) rotate(-219deg); }
+#fourteen { transform: rotate(237.25deg) translate(45vh) rotate(-237.25deg); }
+#fifteen { transform: rotate(255.5deg) translate(45vh) rotate(-255.5deg); }
+#sixteen { transform: rotate(273.75deg) translate(45vh) rotate(-273.75deg); }
+#seventeen { transform: rotate(292deg) translate(45vh) rotate(-292deg); }
+#eighteen { transform: rotate(310.25deg) translate(45vh) rotate(-310.25deg); }
+#nineteen { transform: rotate(328.5deg) translate(45vh) rotate(-328.5deg); }
+#twenty { transform: rotate(346.74deg) translate(45vh) rotate(-346.75deg); }
+/* #twenty { transform: rotate(365deg) translate(45vh) rotate(-365deg); } */
+/* try using view height and view width */
+
