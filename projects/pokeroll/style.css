@@ -2,10 +2,6 @@
 
 }
 
-img {
-  height: 100px;
-}
-
 .circle {
   display: block;
   position: relative;
@@ -13,14 +9,15 @@ img {
   height: 90vh;
   border: dashed 1px;
   border-radius: 50%;
-  left: 20%
+  margin: auto;
+  /* left: 20% */
 }
 
 .circle img {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    /* width: 4em; height: 4em; */
+    width: 80px;
     margin: -3em;
 }
 
