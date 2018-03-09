@@ -29,7 +29,7 @@ function pokeDown(event) {
 function rotatePokemon() {
   pokemon.forEach(poke => {
     let currentDeg = Number(getComputedStyle(document.body).getPropertyValue(`--${poke.id}`).slice(0, -3))
-    currentDeg += 10
+    currentDeg = (currentDeg + 10) % 360
     document.documentElement.style.setProperty(`--${poke.id}`, currentDeg + deg)
   })
 }
@@ -38,14 +38,3 @@ input.addEventListener('change', updateSpeed)
 input.addEventListener('mousemove', updateSpeed)
 window.addEventListener('keydown', pokeSound)
 window.addEventListener('transitionend', pokeDown)
-// set up poke circle with pokeball in the middle
-
-// have it rotate
-
-// have input to increase rotation speed
-
-// when keydown on ??, it glows?? and noise??
-// programmatically assign a data-keydown to each thing and it has a noise when key is touched
-// 65-90 is alpha keycode
-
-// 32 is space bar -- for poke ball?

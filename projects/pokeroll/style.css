@@ -26,6 +26,7 @@
 audio {
   display: none
 }
+
 .circle {
   display: block;
   position: relative;
@@ -33,7 +34,7 @@ audio {
   height: 80vh;
   border: none;
   border-radius: 50%;
-  margin: auto;
+  margin: -2em auto;
 }
 
 .circle img {
